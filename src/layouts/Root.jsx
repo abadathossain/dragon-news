@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 
 export default function () {
   return (
-    <div>
+    <div className='font-Amita text-4xl'>
         <Outlet/>
     </div>
   )
