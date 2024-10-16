@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function BreakingNews() {
     return (
-        <div className='flex'>
+        <div className='flex mt-5 text-sm'>
             <button className='btn btn-secondary'>BreakingNews</button>
             <Marquee pauseOnHover={true} speed={100}>
                 <Link className="mr-12" to="/">I can be a React component, multiple React components.....</Link>
